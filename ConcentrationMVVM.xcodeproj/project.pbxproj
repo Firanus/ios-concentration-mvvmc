@@ -12,6 +12,12 @@
 		F5E865AC2019F54200A52E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E865AA2019F54200A52E05 /* Main.storyboard */; };
 		F5E865AE2019F54200A52E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E865AD2019F54200A52E05 /* Assets.xcassets */; };
 		F5E865B12019F54200A52E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E865AF2019F54200A52E05 /* LaunchScreen.storyboard */; };
+		F5E865B92019F6F400A52E05 /* ConcentrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E865B82019F6F400A52E05 /* ConcentrationViewModel.swift */; };
+		F5E865BB2019F8C600A52E05 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E865BA2019F8C600A52E05 /* Card.swift */; };
+		F5E865BD2019F95400A52E05 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E865BC2019F95400A52E05 /* CardViewModel.swift */; };
+		F5E865BF2019FBDD00A52E05 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E865BE2019FBDD00A52E05 /* Concentration.swift */; };
+		F5E865C1201A160500A52E05 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E865C0201A160500A52E05 /* Coordinator.swift */; };
+		F5E865C3201A273E00A52E05 /* GameTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E865C2201A273E00A52E05 /* GameTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		F5E865AD2019F54200A52E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5E865B02019F54200A52E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5E865B22019F54200A52E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E865B82019F6F400A52E05 /* ConcentrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationViewModel.swift; sourceTree = "<group>"; };
+		F5E865BA2019F8C600A52E05 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F5E865BC2019F95400A52E05 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		F5E865BE2019FBDD00A52E05 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		F5E865C0201A160500A52E05 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F5E865C2201A273E00A52E05 /* GameTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +66,15 @@
 		F5E865A52019F54200A52E05 /* ConcentrationMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				F5E865BA2019F8C600A52E05 /* Card.swift */,
+				F5E865BC2019F95400A52E05 /* CardViewModel.swift */,
 				F5E865A62019F54200A52E05 /* AppDelegate.swift */,
+				F5E865C0201A160500A52E05 /* Coordinator.swift */,
 				F5E865A82019F54200A52E05 /* ViewController.swift */,
+				F5E865BE2019FBDD00A52E05 /* Concentration.swift */,
 				F5E865AA2019F54200A52E05 /* Main.storyboard */,
+				F5E865C2201A273E00A52E05 /* GameTheme.swift */,
+				F5E865B82019F6F400A52E05 /* ConcentrationViewModel.swift */,
 				F5E865AD2019F54200A52E05 /* Assets.xcassets */,
 				F5E865AF2019F54200A52E05 /* LaunchScreen.storyboard */,
 				F5E865B22019F54200A52E05 /* Info.plist */,
@@ -138,6 +156,12 @@
 			files = (
 				F5E865A92019F54200A52E05 /* ViewController.swift in Sources */,
 				F5E865A72019F54200A52E05 /* AppDelegate.swift in Sources */,
+				F5E865B92019F6F400A52E05 /* ConcentrationViewModel.swift in Sources */,
+				F5E865BB2019F8C600A52E05 /* Card.swift in Sources */,
+				F5E865BD2019F95400A52E05 /* CardViewModel.swift in Sources */,
+				F5E865BF2019FBDD00A52E05 /* Concentration.swift in Sources */,
+				F5E865C1201A160500A52E05 /* Coordinator.swift in Sources */,
+				F5E865C3201A273E00A52E05 /* GameTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
