@@ -66,20 +66,36 @@
 		F5E865A52019F54200A52E05 /* ConcentrationMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				F5E865BA2019F8C600A52E05 /* Card.swift */,
-				F5E865BC2019F95400A52E05 /* CardViewModel.swift */,
 				F5E865A62019F54200A52E05 /* AppDelegate.swift */,
 				F5E865C0201A160500A52E05 /* Coordinator.swift */,
 				F5E865A82019F54200A52E05 /* ViewController.swift */,
-				F5E865BE2019FBDD00A52E05 /* Concentration.swift */,
+				F5E865C52020790800A52E05 /* ViewModels */,
+				F5E865C4202076CC00A52E05 /* Model */,
 				F5E865AA2019F54200A52E05 /* Main.storyboard */,
-				F5E865C2201A273E00A52E05 /* GameTheme.swift */,
-				F5E865B82019F6F400A52E05 /* ConcentrationViewModel.swift */,
 				F5E865AD2019F54200A52E05 /* Assets.xcassets */,
 				F5E865AF2019F54200A52E05 /* LaunchScreen.storyboard */,
 				F5E865B22019F54200A52E05 /* Info.plist */,
 			);
 			path = ConcentrationMVVM;
+			sourceTree = "<group>";
+		};
+		F5E865C4202076CC00A52E05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5E865C2201A273E00A52E05 /* GameTheme.swift */,
+				F5E865BA2019F8C600A52E05 /* Card.swift */,
+				F5E865BE2019FBDD00A52E05 /* Concentration.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5E865C52020790800A52E05 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F5E865BC2019F95400A52E05 /* CardViewModel.swift */,
+				F5E865B82019F6F400A52E05 /* ConcentrationViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
